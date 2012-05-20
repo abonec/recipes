@@ -15,10 +15,8 @@
   
   <label>
     <span>Content</span>
-    <input 
-      type="text" name="content" 
-      value="<%= @content %>" required
->
+    <textarea name="content" required>
+    </textarea>
     <br />
   </label>
   
