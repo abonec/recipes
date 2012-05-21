@@ -1,11 +1,11 @@
-<h1>Edit Recipe</h1>
+<h1>Редактировать рецепт</h1>
 
-<a data-type="back">Back</a>
+<a data-type="back">Назад</a>
 
 <form>
   
   <label>
-    <span>Title</span>
+    <span>Название</span>
     <input 
       type="text" name="title" 
       value="<%= @title %>" required
@@ -14,13 +14,13 @@
   </label>
   
   <label>
-    <span>Content</span>
+    <span>Содержание</span>
     <textarea name="content" required> 
       <%= @content %>
     </textarea>
     <br />
   </label>
   
-  <button>Edit</button>
+  <button>Редактировать</button>
 
 </form>

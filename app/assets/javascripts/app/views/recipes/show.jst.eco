@@ -1,6 +1,6 @@
-<h1>Show Recipe</h1>
+<h1>Рецерт</h1>
 
-<a data-type="edit">Edit</a> <a data-type="back">Back</a>
+<a data-type="edit">Редактировать</a> <a data-type="back">Назад</a>
 
-<p>Title: <%= @title %></p>
-<p>Content: <%= @content %></p>
+<p>Название: <%= @title %></p>
+<p>Содержание: <%= @content %></p>

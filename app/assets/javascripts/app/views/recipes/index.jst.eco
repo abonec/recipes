@@ -1,12 +1,30 @@
-<h1>Listing Recipes</h1>
+<h1>Список рецептов</h1>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Название</th>
+      <th>Действия</th>
+    </tr>
+  </thead>
+  <tbody>
 
 <% for recipe in @recipes: %>
-  <div class="item" data-id="<%= recipe.id %>">
-    <a data-type="show"><%= recipe.title %></a>
-    
-    <a data-type="edit">Edit</a> 
-    <a data-type="destroy">Destroy</a>
-  </div>
+	<tr>
+	  
+	  <td>
+	  	<div class="item" data-id="<%= recipe.id %>"><a data-type="show"><%= recipe.title %></a></div>
+	  </td>
+	  <td>
+	    <div class="item" data-id="<%= recipe.id %>">
+	    	<a data-type="edit" class="btn btn-mini">Редактировать</a> 
+	    	<a data-type="destroy" class="btn btn-mini btn-danger">Удалить</a>
+	    </div>
+		</td>
+	  
+  </tr>
 <% end %>
 
-<p><a data-type="new">New Recipe</a></p>
+  </tbody>
+</table>
+
+<p><a data-type="new" class="btn btn-primary">Добавить рецепт</a></p>
