@@ -18,6 +18,11 @@
     <textarea name="content" required>
     </textarea>
     <br />
+  </label>  
+  <label>
+    <span>Картинка</span>
+    <input id="recipe_image" name="recipe[image]" type="file">
+    <br />
   </label>
   
   <button>Создать</button>

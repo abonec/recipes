@@ -25,6 +25,7 @@ gem 'jquery-rails'
 gem "spine-rails"
 gem "eco"
 gem "haml-rails"
+gem 'carrierwave'
 
 # gem 'twitter-bootstrap-rails'
 gem 'bootstrap-sass'
